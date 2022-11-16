@@ -23,3 +23,5 @@ if(displayRatingEl) {
     displayRatingEl.textContent = `You selected ${ratingLocal} out of 5`;
 }
 
+localStorage.clear();
+
