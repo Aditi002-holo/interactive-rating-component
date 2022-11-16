@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --mediumBlue: hsl(216, 12%, 54%);
+    --mediumGrey: hsla(216, 12%, 54%, 0.205);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--veryDarkBlue);
+    font-family: 'Overpass', sans-serif;
+    color: var(--white);
+    overflow: hidden;
+}
+
+
+section {
+    width: 20rem;
+    height: auto;
+    padding: 1.8rem;
+    border-radius: 1.5rem;
+    background-color: var(--darkBlue);
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--mediumGrey);
+}
+
+h1 {
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+
+}
+
+.message {
+    font-size: 0.9rem;
+    margin-top: -10px;
+    padding-right: 1rem;
+    line-height: 1.6;
+    opacity: 0.7;
+    font-weight: 200;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+li {
+    border-radius: 50%;
+}
+
+.rating {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--mediumGrey);
+    border: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+    color: var(--white);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.rating:hover {
+    background-color: var(--mediumBlue);
+    opacity: 1;
+}
+
+.rating:active {
+    background-color: var(--orange);
+    opacity: 1;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+/* DISPLAY PAGE */
+
+.page-two {
+    text-align: center;
+
+}
+
+.display-rating {
+    background-color: var(--mediumGrey);
+    padding: 0.5rem;
+    margin: 2rem 3.2rem;
+    border-radius: 1.5rem;
+    color: var(--orange);
+    opacity: 0.9;
+}
+
+.message.second {
+    padding-right: 0;
+    margin-bottom: 0;
+}
