@@ -5,9 +5,7 @@ let rating;
 
 rateBtns.forEach(btn => {
     btn.addEventListener('click', function() {
-        rating = Number(btn.textContent);
-        localStorage.setItem("rating", rating);
-        console.log(rating);
+        localStorage.setItem("rating", btn.textContent);
     })
 })
 
