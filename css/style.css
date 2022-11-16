@@ -128,3 +128,13 @@ li {
     padding-right: 0;
     margin-bottom: 0;
 }
+
+@media(max-width: 375px) {
+    section {
+        width: 75vw;
+    }
+
+    .display-rating {
+        font-size: 0.9rem;
+    }
+}
