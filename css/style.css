@@ -131,10 +131,21 @@ li {
 
 @media(max-width: 375px) {
     section {
-        width: 75vw;
+        width: 65vw;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     .display-rating {
-        font-size: 0.9rem;
+        padding: 0.6rem;
+        margin: 1.5rem 2.5rem;
+        font-size: 0.75rem;
+    }
+
+    .message {
+        font-size: 0.7rem;
     }
 }
