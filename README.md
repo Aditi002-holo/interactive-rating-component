@@ -15,7 +15,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/main-page.JPG)
+
+![](./images/display-page.JPG)
 
 
 ### Links
